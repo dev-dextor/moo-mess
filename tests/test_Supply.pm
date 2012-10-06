@@ -14,4 +14,6 @@ my $supply = MooDummy::Supply->new(
 
 $supply->useSupplies(9);
 print Dumper $supply;
-
+print Dumper $supply->isa("Fruit") ;
+print  $supply->isa("Fruit") ;
+print  $supply->can("goesOff") ;
